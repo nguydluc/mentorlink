@@ -1,7 +1,6 @@
 //export default function useFetchWrapper() {
 export { utilFetchWrapper };
-const baseUrl = "http://127.0.0.1:8000/api"; // be sure port matches server port
-//const baseUrl = process.env.REMOTE_API;
+const baseUrl = "https://mentorlinkapi-f9135d590a86.herokuapp.com/api";
 
 function utilFetchWrapper() {
   return {
